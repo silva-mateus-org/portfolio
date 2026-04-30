@@ -15,7 +15,7 @@ env:
   DOTNET_VERSION: '9.0.x'
   API_IMAGE: ghcr.io/silva-mateus-org/portfolio-api
   WEB_IMAGE: ghcr.io/silva-mateus-org/portfolio
-  DOTNET_INSTALL_DIR: /home/deploy/.dotnet
+  DOTNET_INSTALL_DIR: /home/infra/.dotnet
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 permissions:
